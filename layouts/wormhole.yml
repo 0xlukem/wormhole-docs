@@ -171,8 +171,8 @@ layers:
       color: *background_color
 
   # Page title
-  - size: { width: 1200, height: 200 }
-    offset: { x: 0, y: 110 }
+  - size: { width: 1000, height: 200 }
+    offset: { x: 90, y: 110 }
     typography:
       content: *card_title
       overflow: shrink
@@ -180,14 +180,14 @@ layers:
       color: "#000"
       line:
         amount: 1
-        height: 1.10
+        height: 2
       font:
         family: Inter
-        style: 24pt Black
+        style: 18pt Bold
 
   # Page description
   - size: { width: 700, height: 110 }
-    offset: { x: 250, y: 270 }
+    offset: { x: 250, y: 250 }
     typography:
       content: *page_description
       overflow: shrink
